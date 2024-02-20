@@ -36,9 +36,14 @@ export const setProducts = (products) =>{
     };
 }
 
-export const initProducts = () =>{
+export const initProducts = (token = null) =>{
     return dispatch => {
-        axios.get('https://educri-2f856-default-rtdb.firebaseio.com/products.json')
+        let queryParams = '';
+        if(token){
+         queryParams = '?auth=' + token;
+        }
+
+        axios.get('https://educri-2f856-default-rtdb.firebaseio.com/products.json' + queryParams)
         .then(response => {
             const fetchProducts = [] ;
             for(let key in response.data){

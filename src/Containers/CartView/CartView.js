@@ -10,7 +10,8 @@ import TypeButton from '../../Shared/TypeButton';
 export class CartBuilder extends Component{
 
 componentDidMount(){
-    this.props.onProductInit();
+    //this.props.onProductInit(this.props.token);
+    this.props.onProductInit(null);
     //this.props.onCleanOrder();
     this.props.onTypeOrdenButton(TypeButton.viewCart);
 }
@@ -36,6 +37,7 @@ render(){
 const mapStateProps = state =>{
     return {
         products:state.cartBuilder.products,
+        token: state.auth.token,
         error: state.cartBuilder.error
         ,isAuthenticated: state.auth.token !== null
     }
@@ -46,7 +48,7 @@ const mapDispatchedProps = dispatch =>{
         onProductAdded: (productName) => dispatch(action.addProduct(productName)),
         onProductRemoved: (productName) => dispatch(action.reomoveProduct(productName)),
         onTypeOrdenButton: (typeButton) => dispatch(action.typeOrderBoton(typeButton)),
-        onProductInit: () => dispatch(action.initProducts()),
+        onProductInit: (token) => dispatch(action.initProducts(token)),
         onRemoveProductEspecific: (key) => dispatch(action.removeProductEspecific(key))
     }
 }
