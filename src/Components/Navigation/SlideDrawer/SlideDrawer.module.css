@@ -1,0 +1,47 @@
+.SideDrawer {
+    position: fixed;
+    width: 280px;
+    max-width: 70%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background-color:#454547;;
+    padding: 32px 16;
+    box-sizing: border-box;
+    transition: transform .3s ease-out;
+    overflow: auto;
+  }
+  
+  @media (min-width:500px) {
+    .SideDrawer {
+      display: none;
+    }
+  }
+  
+  .Open {
+    transform: translateX(0);
+  }
+  
+  .Close {
+    transform: translateX(-100%);
+  }
+  
+  .Logo{
+    height: 8%;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 32px;
+}
+
+.Facebook{
+  float: right;
+  margin-right: 5px;
+}
+
+.User{
+
+    position: inherit;
+    display: flow-root;
+    color: white;
+}

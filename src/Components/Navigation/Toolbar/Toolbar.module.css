@@ -1,0 +1,63 @@
+.Toolbar {
+    height: 110px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: Red;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 10px;
+    box-sizing: border-box;
+    z-index: 90;
+  }
+  
+  .Toolbar nav {
+    height: 100%;
+  }
+  
+  .LogoMobile{
+    display: none;
+  }
+
+  @media (max-width: 499px) {
+    .Desktop{
+      display: none;
+    }
+    .Toolbar{
+      height: 56px !important;
+      padding: 0 10px 10px !important;
+      background-image: none;
+      background-color: #454547;
+    }
+    .LogoMobile{
+      display: block;
+    }
+  }
+
+  .Logo{
+      height: 64px;
+      margin-top: 10px;;
+  }
+
+  .User{
+    position: absolute;
+    display: block;
+    color: white;
+    margin-top: 85px;
+    margin-left: calc(100% - 200px);
+  }
+
+  .Foto{
+    background-color: white;
+    padding:12px;
+    height: 80%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    position: absolute;
+    margin-left: calc(100% - 150px);
+}

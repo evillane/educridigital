@@ -1,0 +1,46 @@
+.ProductCart{
+    display: inline-block;
+    background: linear-gradient(221deg, rgb(204, 221, 235) 0%, rgba(154, 215, 241, 0.639) 100%);
+    box-shadow: 2rem;
+    width: 100%;
+    border-radius: 1rem;
+    padding-top: 5px;
+    margin-bottom: 2px;
+    padding-right: 5px;
+    border: 1rem #063963;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+.ProductCartDisabled{
+    pointer-events: none;
+}
+
+.Descripcion {
+    margin-top: 8px;
+      /* padding-left: 5px; */
+      color: black;
+      display: inline-flex;
+      vertical-align: top;
+    max-width: 250px;
+}
+
+.Importe {
+    float: right !important;
+    color:black;
+    margin-top: 5px;
+}
+
+.ColorIcon{
+    color:rgb(31, 28, 214);
+}
+
+@media (min-width: 500px) {
+    .Descripcion {
+        max-width: 500px;
+    }
+  }
+
+.Cursor{
+    cursor: pointer;
+}

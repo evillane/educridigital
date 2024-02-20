@@ -1,0 +1,19 @@
+.NavigationItems {
+    margin: 0;
+    padding: 0;
+    flex-flow: row;
+    height: 60px;
+  }
+
+  .NavigationItems p{
+    padding: 2px;
+    display: flex;
+    MARGIN-TOP: auto;
+  }
+  
+  @media (min-width: 500px) {
+    .NavigationItems {
+      flex-flow: row;
+    }
+  }
+  

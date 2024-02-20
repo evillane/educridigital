@@ -1,0 +1,58 @@
+.CartFooter{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background: linear-gradient(221deg, rgba(33,150,243,1) 0%, rgba(43,169,221,0.639093137254902) 100%);
+    box-sizing: border-box;
+    border-radius: 2rem;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    border: 1rem #063963;
+    vertical-align: middle;
+    cursor: pointer;
+    pointer-events:visibleFill;
+}
+
+.CartFooterDisabled{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background: linear-gradient(221deg, rgb(179, 216, 247) 0%, rgba(161, 211, 233, 0.639) 100%);
+    box-sizing: border-box;
+    border-radius: 2rem;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    border: 1rem #063963;
+    vertical-align: middle;
+    pointer-events: none;
+}
+
+.Cantidad {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 2px;
+    font-weight: 400;
+    color:white;
+    display: inline-block;
+}
+
+.Next {
+    float: right !important;
+    color:white;
+}
+
+.ColorIcon{
+    color:white;
+}

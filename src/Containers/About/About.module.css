@@ -1,0 +1,33 @@
+.About{
+    width: 80%;
+    background: linear-gradient(221deg, rgb(204, 221, 235) 0%, rgba(154, 215, 241, 0.639) 100%);
+    border: 1px solid rgba(154, 215, 241, 0.639);
+    box-shadow: 0 3px 2px rgba(154, 215, 241, 0.639);
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    z-index: 1030;
+    color: rgb(136, 132, 132);
+}
+
+.About-logo {
+    height: 200px;
+    pointer-events: none;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+.Letter{
+    position: relative;
+    padding-top: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+}

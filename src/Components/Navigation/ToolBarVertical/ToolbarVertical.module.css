@@ -1,0 +1,24 @@
+.ToolbarVertical {
+    height: calc(100% - 110px);
+    width: 15%;
+    position: fixed;
+    top: 110px;
+    left: 0;
+    background-color: #454547;
+    overflow: auto;
+    margin-bottom: 20%;
+  }
+  
+  .ToolbarVertical nav {
+    height: 100%;
+  }
+  
+  @media (max-width: 499px) {
+    .ToolbarVertical{
+      display: none;
+    }
+  }
+
+  .Logo{
+      height: 80%;
+  }

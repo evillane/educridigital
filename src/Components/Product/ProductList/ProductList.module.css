@@ -1,0 +1,56 @@
+.ProductList {
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+.goBack{
+  position: relative;
+  background: linear-gradient(221deg, rgba(33,150,243,1) 0%, rgba(43,169,221,0.639093137254902) 100%);
+    box-shadow: 2rem;
+    border-radius: 1rem;
+    padding-top: 5px;
+    margin-bottom: 0.5px;
+    padding-right: 5px;
+    border: 1rem #063963;
+    /* vertical-align: middle; */
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.Tittle{
+    margin-top: 8px;
+      /* padding-left: 5px; */
+      color: black;
+      display: inline-flex;
+      vertical-align: top;
+}
+
+  .TotalList{
+    position: relative;
+    background: linear-gradient(221deg, rgb(204, 221, 235) 0%, rgba(154, 215, 241, 0.639) 100%);
+    box-shadow: 2rem;
+    border-radius: 1rem;
+    margin-right: 10px;
+    margin-top: 1rem;
+    border: 1rem #063963;
+    vertical-align: middle;
+    padding: 10px;
+    float: right;
+    font-weight: 700;
+}
+
+.Img{
+  display: inline-flex;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.LetterDiv{
+  margin-top: 7px;
+}

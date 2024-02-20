@@ -1,0 +1,64 @@
+.Auth{
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0px 2px 3px #ccc;
+    border: 1px solid #ccc;;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    background: linear-gradient(221deg, rgb(79, 79, 80) 0%, rgba(55, 56, 56, 0.639) 100%);
+}
+
+.Auth input{
+    display: block;
+    background-color: rgb(173, 212, 245);
+    box-shadow: 0px 2px 3px rgb(117, 187, 245);
+    color:rgb(136, 132, 132);
+}
+
+.Auth input:focus
+{
+    color:whitesmoke;
+    background: linear-gradient(221deg, rgb(91, 174, 241) 0%, rgba(87, 181, 221, 0.639) 100%);
+
+}
+
+@media(min-width:600px){
+    .Auth{
+        width: 500px;
+    }
+}
+
+.Auth Button{
+    position: relative;
+    background: #454547;
+      box-shadow: 2rem;
+      padding: 1rem;
+      border: 1rem #063963;
+      /* vertical-align: middle; */
+      display: inline-block;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      color:white;
+}
+
+.Auth Button:hover,
+.Auth Button:active
+.Auth Button:active {
+    background-color:#747477;
+    color: white;
+    border: 1rem #87878a;
+    box-shadow: 2rem;
+}
+
+.Social{
+    display: inline;
+    flex-direction: row;
+    margin-left: 2px;
+}
+
+.AuthLink{
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: blue;
+}
